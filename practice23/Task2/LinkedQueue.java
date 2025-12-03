@@ -1,7 +1,5 @@
 package practice23.Task2;
 
-import practice23.Task1;
-
 public class LinkedQueue extends AbstractQueue{
     private static class Node {
         int data;
@@ -86,5 +84,6 @@ public class LinkedQueue extends AbstractQueue{
         return "[" + elementsToString() + "]";
     }
 }
+
 
 
